@@ -1,0 +1,31 @@
+id: software-security-lab
+
+name: 软件安全实验 - Fall 2023
+
+description: |
+  绝对安全的软件系统现在不存在，将来也不会存在。
+
+type: course
+
+award:
+  emoji: 😀
+
+modules:
+  - id: comprehensive-exploit
+    name: Comprehensive Exploit
+    description: |
+      本模块包含一些综合漏洞利用关卡，帮助学生融会贯通之前的利用技术
+
+  - id: mitigation-bypass
+    name: Mitigation Bypass
+    description: |
+      学习与绕过一些安全防御机制，如栈保护（Stack Protector），地址空间随机化（ASLR），数据执行保护（DEP/NX）
+      \
+      \
+      **关卡等级分布：**
+      - Level 1.0 - 关于栈保护
+      - Level 2.0 - 关于地址随机化与 PIE
+      - Level 3.0 - 关于数据执行保护
+      \
+      \
+      **注：为了更有效地解决这些挑战关卡，你首先需要运行 /challenge 目录下的挑战题目，随后根据提示完成挑战。**
