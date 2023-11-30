@@ -36,13 +36,15 @@ modules:
   - id: mitigation-bypass
     name: Mitigation Bypass
     description: |
-      学习与绕过一些安全防御机制，如栈保护（Stack Protector），地址空间随机化（ASLR），数据执行保护（DEP/NX）
+      学习与绕过一些安全防御机制，如栈保护（Stack Protector），地址空间随机化（ASLR）
       \
       \
       **关卡等级分布：**
-      - Level 1.0 - 关于栈保护
-      - Level 2.0 - 关于地址随机化与 PIE
-      - Level 3.0 - 关于数据执行保护
+      - Level 1.0 - 爆破栈 canary 保护与绕过地址随机化
       \
       \
       **注：为了更有效地解决这些挑战关卡，你首先需要运行 /challenge 目录下的挑战题目，随后根据提示完成挑战。**
+    challenges:
+        - id: level-1-0
+          name: Level 1.0
+          description: "本关卡需学习并理解 stack canary 暴力破解原理，掌握地址随机化绕过与 ROP 的基础技巧"
