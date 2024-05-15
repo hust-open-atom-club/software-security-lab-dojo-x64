@@ -5,10 +5,12 @@ name:  Fall 2023 - 软件安全实验
 description: |
   绝对安全的软件系统现在不存在，将来也不会存在。
 
-type: course
+type: archive
 
 award:
-  emoji: 😀
+  emoji:Coal_Badge
+
+comparator: 3000
 
 modules:
   - id: reverse-engineering
