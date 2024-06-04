@@ -29,6 +29,10 @@ modules:
         - id: level-1-0
           name: Level 1.0
           description: "本关卡需学习并理解简单异或、移位、换表操作的求逆方法，掌握GDB动态调试、Z3约束求解、MD5哈希爆破的基础技巧"
+    resources:
+        - name: "软件安全实验一"
+          type: lecture
+          slides: lab-1
 
   - id: mitigation-bypass
     name: Mitigation Bypass
@@ -45,3 +49,7 @@ modules:
         - id: level-1-0
           name: Level 1.0
           description: "本关卡需学习并理解 stack canary 暴力破解原理，掌握地址随机化绕过与 ROP 的基础技巧"
+    resources:
+        - name: "软件安全实验二"
+          type: lecture
+          slides: lab-2
